@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria chispita Pedidos</title>
+</head>
+
+<body>
+    <h1>Pedidos</h1>
+    <h1>Pasteles al gusto</h1>
+
+    <h2> · PASTELES · ADORNOS</h2>
+
+
+    <!--Datos-->
+    <div>
+        <h3>Datos</h3>
+        <form action="Pedidos.js">
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+            <br>
+            <label for="correo">Correo</label>
+            <br>
+            <input type="email" name="correo" id="correo" placeholder="Correo electronico">
+            <br>
+            <label for="telefono">Telefono</label>
+            <br>
+            <input type="number" name="telefono" id="telefono" placeholder="*525510203040">
+            <br>
+            <label for="descripcion">Descripcion</label>
+            <br>
+            <input type="text" name="descripcion" id="descripcion" placeholder="Descripcion">
+        </form>
+    </div>
+
+    <div>
+        <!--Sabores-->
+        <h3>Sabores</h3>
+        <Table>
+            <tr>
+                <th>Pastel de fresa</th>
+                <th>Pastel de chocolate</th>
+                <th>Pastel de Vainilla</th>
+            </tr>
+            <tr>
+                <th><img src="https://1kk1i21ia6en3wibq33dvbxi-wpengine.netdna-ssl.com/wp-content/uploads/2018/07/Karen-Delgado-Fresh-Strawberry-Cake1_1024x1024-768x768.png"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+                <th><img src="https://t2.rg.ltmcdn.com/es/posts/1/9/6/torta_de_chocolate_esponjosa_10691_600.jpg"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+                <th><img src="http://www.guiaderecetas.com/static/images/receta/torta-de-vainilla.jpg"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+            </tr>
+            <tr>
+                <th>$500</th>
+                <th>$600</th>
+                <th>$700</th>
+            </tr>
+            <tr>
+                <th><input type="checkbox" id="sabor1" name="sabor1"></th>
+                <th><input type="checkbox" id="sabor2" name="sabor2"></th>
+                <th><input type="checkbox" id="sabor3" name="sabor3"></th>
+            </tr>
+        </Table>
+    </div>
+    <div>
+        <!--Adornos-->
+        <h3>Adornos</h3>
+        <Table>
+            <tr>
+                <th>Cumpleaños</th>
+                <th>Bautizo/XV años</th>
+                <th>Boda</th>
+            </tr>
+            <tr>
+                <th><img src="https://avantelaser.mx/store/588-large_default/adorno-para-pastel-de-cumpleanos-modelo-feliz-cumple.jpg"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+                <th><img src="https://http2.mlstatic.com/D_NQ_NP_2X_920745-MLM42068566577_062020-F.webp"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+                <th><img src="https://http2.mlstatic.com/D_NQ_NP_2X_871492-MLM46850774727_072021-F.webp"
+                        alt="Perritos lindos" width="200px" height="200px"></th>
+            </tr>
+            <tr>
+                <th>$150</th>
+                <th>$220</th>
+                <th>$280</th>
+            </tr>
+            <tr>
+                <th><input type="checkbox" id="adorno1" name="adorno1"></th>
+                <th><input type="checkbox" id="adorno2" name="adorno2"></th>
+                <th><input type="checkbox" id="adorno3" name="adorno3"></th>
+            </tr>
+        </Table>
+    </div>
+    <hr>
+
+    <br>
+    <input type="submit" id="enviar" name="enviar" value="Enviar">
+    <input type="reset" id="borrar" name="borrar" value="Borrar">
+    <!--Informacion de contacto-->
+    <div>
+        <h3>Contáctanos</h3>
+        <p>Direccion: <br> Ixtapa #5, zihuatanejo, Mexico</p>
+        <p>Horario de atencion: <br> 9am a 8pm</p>
+        <p>Telefono: <br> +5548908752</p>
+    </div>
+
+</body>
+
+</html>
